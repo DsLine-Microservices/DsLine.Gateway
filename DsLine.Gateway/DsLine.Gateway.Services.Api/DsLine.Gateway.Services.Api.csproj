@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>38400e27-368d-409c-ab06-4635285019e9</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.10" />
+    <PackageReference Include="Ocelot" Version="13.8.0" />
+    <PackageReference Include="Ocelot.Cache.CacheManager" Version="13.8.0" />
+    <PackageReference Include="Ocelot.Provider.Consul" Version="13.8.0" />
+  </ItemGroup>
+
+</Project>

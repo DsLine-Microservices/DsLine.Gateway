@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A08C3583-0C05-4C79-85BD-25AC81D0F57B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{DD684303-2C50-4AC6-B220-BEC9F98C5014}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{D8C9C7E1-2D9A-4CD4-BD57-573930CA99B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DsLine.Gateway.Services.Api", "DsLine.Gateway.Services.Api\DsLine.Gateway.Services.Api.csproj", "{5403B1B7-FA70-48C3-B18B-C06D16A8B01A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5403B1B7-FA70-48C3-B18B-C06D16A8B01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5403B1B7-FA70-48C3-B18B-C06D16A8B01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5403B1B7-FA70-48C3-B18B-C06D16A8B01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5403B1B7-FA70-48C3-B18B-C06D16A8B01A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD684303-2C50-4AC6-B220-BEC9F98C5014} = {A08C3583-0C05-4C79-85BD-25AC81D0F57B}
+		{D8C9C7E1-2D9A-4CD4-BD57-573930CA99B1} = {A08C3583-0C05-4C79-85BD-25AC81D0F57B}
+		{5403B1B7-FA70-48C3-B18B-C06D16A8B01A} = {DD684303-2C50-4AC6-B220-BEC9F98C5014}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E257438-AFEE-4A7D-809E-43E462C14DAD}
+	EndGlobalSection
+EndGlobal
